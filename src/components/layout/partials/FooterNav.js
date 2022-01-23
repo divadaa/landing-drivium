@@ -19,17 +19,17 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <Link to="#0">☎️ 621336676</Link>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="#0">📬 info@drivium.es</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="#0">⏰ 24 horas -  360 días</Link>
         </li>
         <li>
-          <Link to="#0">Support</Link>
-        </li>
+          <Link to="#0">🚀 Entrega inmediata</Link>
+        </li> 
       </ul>
     </nav>
   );
