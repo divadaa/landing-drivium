@@ -79,7 +79,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Estoy de Erasmus en España y el servicio que me ofrece Drivium es excelente, no tengo que traer mi vehículo desde Francia y solo utilizo sus servicios durante mi periodo lectivo.
+                    — Estoy de Erasmus en España y el servicio que me ofrece Drivium es excelente, no tengo que traer mi vehículo desde Francia y solo utilizo sus servicios durante mi periodo lectivo. Merci
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
