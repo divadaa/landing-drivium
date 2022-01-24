@@ -78,6 +78,7 @@ const Hero = ({
                     </Button>
                 </ButtonGroup>
               </div>
+              
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
@@ -89,7 +90,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/miniplay.png')}
                 alt="Hero"
                 width={896}
                 height={504} />
