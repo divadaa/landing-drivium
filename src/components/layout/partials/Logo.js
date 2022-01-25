@@ -21,10 +21,10 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/logodrivium.svg')}
+            src={require('./../../../assets/images/logo2.png')}
             alt="Open"
-            width={240}
-            height={32} />
+            width={280}
+            height={60} />
         </Link>
       </h1>
     </div>
