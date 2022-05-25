@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import ContactForm from '../elements/ContactForm';
 
 const propTypes = {
   ...SectionProps.types
@@ -67,6 +68,15 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Sin letra pequeña, sin permanencia, cambia el vehículo según necesidad.
                 </p>
+                <div className="py-6">
+
+                <h3 className="m-0">
+              ¿Hablamos?
+              </h3>
+
+          <div><ContactForm /></div>
+        <br></br>  
+        </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   {/* <Button tag="a" color="primary" wideMobile href="https://cruip.com/"> */}
