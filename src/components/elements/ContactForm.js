@@ -6,7 +6,12 @@ const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
+      event.preventDefault();
+      emailjs.sendForm('service_1jeksid','template_6070n9t',event.target,'Os969OmHcyezVQnJx')
+      .then(response => console.log(response))
+      .catch(error => console.log(error))
+
     setTimeout(() => {
       setSubmitted(true);
     }, 100);
